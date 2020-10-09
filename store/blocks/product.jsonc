@@ -18,11 +18,6 @@
       "product-images"
     ]
   },
-  "product-images": {
-    "props": {
-      "displayThumbnailsArrows": true
-    }
-  },
   "flex-layout.col#right":{
     "children": [
       "product-name",
@@ -34,22 +29,10 @@
       "verticalAlign": "middle"
     }
   },
-  "product-name": {
-    "props": {
-      "showSku": true,
-      "showBrandName": true
-    }
-  },
   "product-price": {
     "props": {
       "showSavings": true,
       "showListPrice": true
-    }
-  },
-  "buy-button#product": {
-    "props": {
-      "isOneClickBuy": true,
-      "showTooltipOnSkuNotSelected": false
     }
   }
 }
