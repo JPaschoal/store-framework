@@ -18,6 +18,11 @@
       "product-images"
     ]
   },
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  },
   "flex-layout.col#right":{
     "props":{
       "preventVerticalStretch": true,
