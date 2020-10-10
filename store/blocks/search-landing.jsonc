@@ -1,11 +1,11 @@
 {
-  "store.custom#landing": {
-    "block": [
-      "image",
+  "store.custom#landing": { 
+    "blocks": [
+      "image#landingbanner", 
       "search-result-layout.customQuery"
     ]
   },
-  "image": {
+  "image#landingbanner": {
     "props": {
       "src": "https://pt.wikipedia.org/wiki/Nissan_Skyline_GT-R#/media/Ficheiro:1997_Nissan_Skyline_GTR_R33_2.6.jpg",
       "minWidth": "100%"
