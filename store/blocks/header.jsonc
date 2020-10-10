@@ -1,10 +1,23 @@
 {
+  "header": {
+    "blocks": [
+      "header-row#notification",
+      "header-row#main",
+      "header-row#main-mobile"
+    ]
+  },
   "header-row#notification": {
     "children": [
       "header-spacer",
       "rich-text#header",
       "header-spacer"
     ]
+  },
+  "rich-text#header": {
+    "props": {
+      "text": "**Free Shipping on orders over $50**",
+      "textPosition": "CENTER"
+    }
   },
   "header-row#main": {
     "children": [
@@ -52,12 +65,6 @@
   "logo":{
     "props": {
       "url": "https://appliancetheme.vteximg.com.br/assets/vtex.file-manager-graphql/images/flatflat___6081e50402943bcb11bc45a8e613aa72.png"
-    }
-  },
-  "rich-text#header": {
-    "props": {
-      "text": "**Free Shipping on orders over $50**",
-      "textPosition": "CENTER"
     }
   }
 }
