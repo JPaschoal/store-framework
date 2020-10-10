@@ -1,0 +1,29 @@
+{
+  "store.custom#landing": {
+    "block": [
+      "image#landingbanner",
+      "search-result-layout.customQuery"
+    ]
+  },
+  "image#langingbanner": {
+    "props": {
+      "src": "https://pt.wikipedia.org/wiki/Nissan_Skyline_GT-R#/media/Ficheiro:1997_Nissan_Skyline_GTR_R33_2.6.jpg",
+      "minWidth": "100%"
+    }
+  },
+  "search-result-layout.customQuery": {
+    "props": {
+        "querySchema": {
+            "orderByField": "OrderByReleaseDateDESC",
+            "hideUnavailableItems": true,
+            "maxItemsPerPage": 8,
+            "queryField": "Camera",
+            "mapField": "ft",
+            "skusFilter": "ALL_AVAILABLE"
+        }
+    },    
+    "blocks": [
+      "search-result-layout.desktop"
+    ]
+  }
+}
